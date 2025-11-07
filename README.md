@@ -42,7 +42,7 @@ Follow these steps to run the project on your local machine 👇
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/notes-manager-app.git
+git clone https://github.com/Nikitarathod2001/notes-manager-app.git
 
 cd notes-manager-app
 ```
@@ -60,4 +60,26 @@ npm install
 PORT=3100
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
+```
+
+#### Start the backend server:
+```bash
+npm start server
+```
+
+### 3️⃣ Frontend Setup
+
+```bash
+cd ../frontend
+npm install
+```
+
+#### Create a .env file inside the frontend folder:
+```bash
+VITE_API_URL=http://localhost:3100
+```
+
+#### Start the frontend development server:
+```bash
+npm run dev
 ```
