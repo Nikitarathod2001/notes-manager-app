@@ -6,7 +6,7 @@ import noteRouter from "./routes/noteRouter.js";
 import userRouter from "./routes/userRouter.js";
 
 const app = express();
-const PORT = 3100;
+const PORT = process.env.PORT;
 connectDB();
 
 // --- Middlewares ---
