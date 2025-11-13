@@ -35,9 +35,9 @@ This app allows users to **register, log in, create, view, edit, search, and del
 
 ---
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
-Follow these steps to run the project on your local machine 👇  
+Follow these steps to run the project on your local machine  
 
 ### 1️⃣ Clone the Repository
 
